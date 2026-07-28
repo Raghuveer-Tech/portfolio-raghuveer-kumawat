@@ -1,0 +1,18 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  {/* Outer Glowing Ring */}
+  <circle cx="16" cy="16" r="15" fill="url(#nav_logo_gradient)" stroke="#F97316" strokeWidth="2" strokeOpacity="0.6" />
+  
+  {/* Inner Dark Background */}
+  <circle cx="16" cy="16" r="13" fill="#121212" />
+  
+  {/* Center Glowing Dot */}
+  <circle cx="16" cy="16" r="5" fill="#F97316" />
+
+  {/* Gradient Definition */}
+  <defs>
+    <linearGradient id="nav_logo_gradient" x1="2" y1="2" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stopColor="#EA580C" />
+      <stop offset="1" stopColor="#FBBF24" />
+    </linearGradient>
+  </defs>
+</svg>
