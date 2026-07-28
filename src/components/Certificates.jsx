@@ -8,13 +8,6 @@ export default function Certifications() {
       image: "/ApnaCollageDsaJavaSigma06.jpg"
     },
     {
-      title: "Software Development Foundations",
-      issuer: "Simplilearn Skillup",
-      date: "2026",
-      description: "Demonstrated foundational knowledge of software development life cycle (SDLC) and industry principles.",
-      image: "/SoftwareDevelopmentFoundationsSimplilearn.jpg"
-    },
-    {
       title: "Foundations: Data, Data, Everywhere",
       issuer: "Google / Coursera",
       date: "2023",
