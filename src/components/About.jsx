@@ -38,7 +38,10 @@ export default function About() {
                 Hello, I&apos;m <span className="text-orange-500">Raghuveer Kumawat</span>
               </h4>
               <p className="text-sm sm:text-base leading-relaxed text-slate-300">
-                I am a recently graduated student from NIMS University, Jaipur, Rajasthan, India, holding a Bachelor&apos;s in Computer Science and Engineering (2026). I have a strong interest in Software Engineering roles. I also have experience working in the IT department at Golcha Group, Rajasthan, India, focusing on Microsoft Dynamics NAV ERP, and I am passionate about building software applications.
+                I am a B.Tech Computer Science Engineering graduate from NIMS University, Jaipur, Raj. (India) (2022–2026). I have a deep interest in Software Engineering and core computer science fundamentals. Alongside my academic background, I have gained practical industry exposure working in the IT department at Golcha Group, handling Microsoft Dynamics NAV ERP systems.
+              </p>
+              <p className="text-sm sm:text-base leading-relaxed text-slate-300">
+                Focused on continuous growth as a software engineer, building technical expertise, and developing robust software applications.
               </p>
             </div>
 

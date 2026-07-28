@@ -6,14 +6,14 @@ export default function Navbar() {
 
   const leftLinks = [
     { name: "About", href: "#about" },
-    { name: "Project", href: "#project" },
+    { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
     { name: "Education", href: "#education" },
   ];
 
   const rightLinks = [
     { name: "Resume", href: "#resume" },
-    { name: "Internship", href: "#Internship" },
+    { name: "Internships", href: "#internship" },
     { name: "Certifications", href: "#certifications" },
     { name: "Contact", href: "#contact" },
   ];
@@ -45,11 +45,11 @@ export default function Navbar() {
 
         {/* Center 3D Mini Logo / Dot */}
         <div className="flex items-center justify-center mx-auto lg:mx-0">
-          <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-orange-600 to-amber-400 p-[2px] shadow-[0_0_15px_rgba(249,115,22,0.6)]">
+          <a href="#home" className="w-8 h-8 rounded-full bg-gradient-to-tr from-orange-600 to-amber-400 p-[2px] shadow-[0_0_15px_rgba(249,115,22,0.6)] group">
             <div className="w-full h-full bg-[#121212] rounded-full flex items-center justify-center">
-              <div className="w-2.5 h-2.5 bg-orange-500 rounded-full animate-pulse"></div>
+              <div className="w-2.5 h-2.5 bg-orange-500 rounded-full animate-pulse group-hover:scale-125 transition-transform"></div>
             </div>
-          </div>
+          </a>
         </div>
 
         {/* Right Side Links */}
@@ -75,6 +75,7 @@ export default function Navbar() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-slate-300 focus:outline-none p-1"
+            aria-label="Toggle Menu"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {isOpen ? (
@@ -100,7 +101,7 @@ export default function Navbar() {
               }}
               className={`px-4 py-2.5 rounded-xl text-sm font-medium text-center transition ${
                 activeTab === link.name
-                  ? "bg-orange-500 text-white"
+                  ? "bg-orange-500 text-white font-semibold"
                   : "text-slate-300 hover:bg-slate-800 hover:text-white"
               }`}
             >

@@ -15,10 +15,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_wrg6x8f",     // Service ID
-        "template_qb919vh",    // Template ID
+        "service_wrg6x8f",    // Service ID
+        "template_qb919vh",   // Template ID
         formRef.current,
-        "0SIvFbJ8as_CiF75N"      // EmailJS Public Key
+        "0SIvFbJ8as_CiF75N"   // EmailJS Public Key
       )
       .then(
         (result) => {
