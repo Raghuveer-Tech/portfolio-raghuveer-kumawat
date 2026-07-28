@@ -24,7 +24,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center justify-center gap-2.5 sm:gap-4 mb-8">
             {/* LinkedIn */}
             <a 
-              href="https://www.linkedin.com/in/raghuveerkumawat" 
+              href="https://www.linkedin.com/in/raghuveer--kumawat" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-4 sm:px-5 py-2.5 rounded-xl bg-[#1a1a1a] border border-slate-800 text-slate-300 hover:text-white hover:border-orange-500 hover:bg-orange-600/20 text-xs sm:text-sm font-medium transition-all duration-300"
@@ -34,7 +34,7 @@ export default function Footer() {
 
             {/* GitHub */}
             <a 
-              href="https://github.com/raghuveerkumawat" 
+              href="https://github.com/Raghuveer-Tech/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-4 sm:px-5 py-2.5 rounded-xl bg-[#1a1a1a] border border-slate-800 text-slate-300 hover:text-white hover:border-orange-500 hover:bg-orange-600/20 text-xs sm:text-sm font-medium transition-all duration-300"
@@ -44,7 +44,7 @@ export default function Footer() {
 
             {/* LeetCode */}
             <a 
-              href="https://leetcode.com/raghuveerkumawat" 
+              href="https://leetcode.com/u/raghuveer_kumawat_/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-4 sm:px-5 py-2.5 rounded-xl bg-[#1a1a1a] border border-slate-800 text-slate-300 hover:text-white hover:border-orange-500 hover:bg-orange-600/20 text-xs sm:text-sm font-medium transition-all duration-300"

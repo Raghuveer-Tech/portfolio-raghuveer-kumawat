@@ -25,7 +25,7 @@ export default function Resume() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-md mb-10">
             {/* View Resume */}
             <a 
-              href="/resume.pdf" 
+              href="/RaghuveerKumawat_Software_Engineer_Resume.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-full sm:w-1/2 py-3 px-6 rounded-xl bg-[#1a1a1a] border border-slate-700 hover:border-orange-500 text-white font-semibold text-sm transition-all duration-300 text-center"
@@ -35,7 +35,7 @@ export default function Resume() {
 
             {/* Download Resume */}
             <a 
-              href="/resume.pdf" 
+              href="/RaghuveerKumawat_Software_Engineer_Resume.pdf" 
               download 
               className="w-full sm:w-1/2 py-3 px-6 rounded-xl bg-orange-600 hover:bg-orange-700 text-white font-semibold text-sm transition-all duration-300 shadow-lg shadow-orange-900/40 text-center"
             >
@@ -55,7 +55,7 @@ export default function Resume() {
             <div className="flex flex-wrap items-center justify-center gap-4">
               {/* LinkedIn */}
               <a 
-                href="https://www.linkedin.com/in/raghuveerkumawat" 
+                href="https://www.linkedin.com/in/raghuveer--kumawat" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-5 py-2.5 rounded-xl bg-[#1a1a1a] border border-slate-800 text-slate-200 hover:text-white hover:border-orange-500 hover:bg-orange-600/20 text-xs sm:text-sm font-medium transition-all duration-300 flex items-center gap-2"
@@ -65,7 +65,7 @@ export default function Resume() {
 
               {/* GitHub */}
               <a 
-                href="https://github.com/raghuveerkumawat" 
+                href="https://github.com/Raghuveer-Tech/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-5 py-2.5 rounded-xl bg-[#1a1a1a] border border-slate-800 text-slate-200 hover:text-white hover:border-orange-500 hover:bg-orange-600/20 text-xs sm:text-sm font-medium transition-all duration-300 flex items-center gap-2"
@@ -75,7 +75,7 @@ export default function Resume() {
 
               {/* LeetCode */}
               <a 
-                href="https://leetcode.com/raghuveerkumawat" 
+                href="https://leetcode.com/u/raghuveer_kumawat_/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-5 py-2.5 rounded-xl bg-[#1a1a1a] border border-slate-800 text-slate-200 hover:text-white hover:border-orange-500 hover:bg-orange-600/20 text-xs sm:text-sm font-medium transition-all duration-300 flex items-center gap-2"
