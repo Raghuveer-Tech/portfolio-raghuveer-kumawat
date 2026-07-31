@@ -5,7 +5,6 @@ html {
   scroll-padding-top: 100px;
 }
 
-/* Poori website ki body ko light background dene ke liye */
 body {
   background-color: #f8fafc; /* Light gray/white shade */
   color: #0f172a; /* Dark text for readability */

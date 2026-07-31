@@ -10,7 +10,7 @@ export default function Hero() {
     const interval = setInterval(() => {
       setCurrentRoleIndex((prev) => (prev + 1) % roles.length);
       setAnimateKey((prev) => prev + 1);
-    }, 1000); // Thoda time badhaya hai taaki text easily padha ja sake
+    }, 1000);
     return () => clearInterval(interval);
   }, [roles.length]);
 
