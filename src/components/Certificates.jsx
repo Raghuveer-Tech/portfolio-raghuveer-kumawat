@@ -8,25 +8,25 @@ export default function Certifications() {
       image: "/ApnaCollageDsaJavaSigma06.jpg"
     },
     {
-      title: "Foundations: Data, Data, Everywhere",
-      issuer: "Google / Coursera",
-      date: "2023",
-      description: "Covered core data concepts, analytical thinking, data life cycles, and introductory data structures.",
-      image: "/CourseraFoundationDataEverywhere.jpg"
+      title: "Problem Solving (Intermediate)",
+      issuer: "HackerRank",
+      date: "2026",
+      description: "Certified in data structures (HashMaps, Stacks, Queues) and algorithmic problem-solving with optimal solutions.",
+      image: "/HackerRankProblemSolving.png"
     },
     {
-      title: "Artificial Intelligence on Microsoft Azure",
-      issuer: "Microsoft / Coursera",
-      date: "2023",
-      description: "Explored cloud-based AI concepts, machine learning models, and cognitive services on Microsoft Azure.",
-      image: "/CourseraArtificialIntelligence.jpg"
+      title: "Java (Basic)",
+      issuer: "HackerRank",
+      date: "2026",
+      description: "Certified in core Java fundamentals — classes, data structures, inheritance, and exception handling.",
+      image: "/HackerRankJavaBasic.png"
     }
   ];
 
   return (
     <section id="certifications" className="py-20 px-4 sm:px-6 bg-[#0b0b0b] text-white">
       <div className="max-w-4xl mx-auto">
-        
+
         {/* Section Heading */}
         <div className="text-center mb-16">
           <h2 className="text-xs uppercase tracking-widest text-orange-500 mb-2">Credentials</h2>
@@ -37,16 +37,15 @@ export default function Certifications() {
         {/* Certifications Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {certifications.map((cert, index) => (
-            <div 
-              key={index} 
-              className={`bg-[#121212]/90 border border-slate-800 rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.8)] backdrop-blur-xl group hover:border-orange-500/50 transition-all duration-500 flex flex-col justify-between ${
-                index === certifications.length - 1 && certifications.length % 2 !== 0 ? "md:col-span-2 md:max-w-md md:mx-auto w-full" : ""
-              }`}
+            <div
+              key={index}
+              className={`bg-[#121212]/90 border border-slate-800 rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.8)] backdrop-blur-xl group hover:border-orange-500/50 transition-all duration-500 flex flex-col justify-between ${index === certifications.length - 1 && certifications.length % 2 !== 0 ? "md:col-span-2 md:max-w-md md:mx-auto w-full" : ""
+                }`}
             >
               {/* Card Image Banner */}
               <div className="relative h-40 w-full overflow-hidden border-b border-slate-800/80">
-                <img 
-                  src={cert.image} 
+                <img
+                  src={cert.image}
                   alt={cert.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80 group-hover:opacity-100"
                 />
@@ -64,7 +63,7 @@ export default function Certifications() {
                   <h4 className="text-xl font-bold text-white mb-2 group-hover:text-orange-500 transition-colors">
                     {cert.title}
                   </h4>
-                  
+
                   <p className="text-sm font-medium text-slate-400 mb-4">
                     {cert.issuer}
                   </p>
